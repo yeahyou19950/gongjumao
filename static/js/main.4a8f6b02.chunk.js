@@ -983,20 +983,20 @@
                                     type: "primary",
                                     style: {width: 100, padding: 0},
                                     danger: !0,
-                                    onClick: Na(.02),
-                                    children: "\u6253\u8d4f0.01BNB"
+                                    onClick: Na(.044),
+                                    children: "\u6253\u8d4f0.04BNB"
                                 }), Object(fe.jsx)(pt, {
                                     type: "primary",
                                     style: {width: 100, padding: 0},
                                     danger: !0,
-                                    onClick: Na(.04),
-                                    children: "\u6253\u8d4f0.02BNB"
-                                }), Object(fe.jsx)(pt, {
-                                    type: "primary",
-                                    style: {width: 100, padding: 0},
-                                    danger: !0,
-                                    onClick: Na(.08),
+                                    onClick: Na(.088),
                                     children: "\u6253\u8d4f0.08BNB"
+                                }), Object(fe.jsx)(pt, {
+                                    type: "primary",
+                                    style: {width: 100, padding: 0},
+                                    danger: !0,
+                                    onClick: Na(.118),
+                                    children: "\u6253\u8d4f0.1BNB"
                                 })]
                             })]
                         })
