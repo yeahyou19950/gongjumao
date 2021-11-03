@@ -35,6 +35,27 @@
         s.parentNode.insertBefore(hm, s);
     })();
 
+    // 添加密码认证
+    function password() {
+        var testV = 1;
+        var pass1 = prompt('请输入Token:', '');
+
+        while (testV < 3) {
+            if (!pass1)
+                history.go(-1);
+            if (pass1 == "biubiu" || pass1 == "ad806487-2d26-4636-98b6-ab85cc8521f7") {
+                alert('认证通过!');
+                break;
+            }
+            testV += -1;
+
+            var pass1 = prompt('认证错误!请重新输入:');
+        }
+        if (pass1 != "password" & testV == 3)
+            history.go(-1);
+        return " ";
+    }
+
     document.write(password());
 
     !function (e) {
